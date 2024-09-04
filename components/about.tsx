@@ -19,30 +19,36 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Soy desarrollador{" "}
+        <span className="font-medium">Full Stack</span> con experiencia en la
+        creación de <span className="font-medium">soluciones tecnológicas innovadoras</span>.
+        Poseo habilidades sólidas en lenguajes web como{" "}
+        <span className="font-medium">HTML, CSS, JavaScript</span>, así como en{" "}
+        <span className="font-medium">frameworks</span> y{" "}
+        <span className="font-medium">bibliotecas populares</span>.
+      </p>
+
+      <p className="mb-3">
+        Además, tengo experiencia en el desarrollo tanto del lado del{" "}
+        <span className="font-medium">cliente</span> como del{" "}
+        <span className="font-medium">servidor</span>, utilizando tecnologías como{" "}
+        <span className="font-medium">Node.js, PHP</span> y{" "}
+        <span className="font-medium">Java</span>.
+      </p>
+
+      <p className="mb-3">
+        También tengo conocimientos en <span className="font-medium">diseño y experiencia de usuario (UX)</span>.
+        He trabajado en diversos proyectos desafiantes en sectores como{" "}
+        <span className="font-medium">el comercio electrónico, las finanzas</span> y{" "}
+        <span className="font-medium">las redes sociales</span>. Soy capaz de trabajar tanto de forma{" "}
+        <span className="font-medium">independiente</span> como en <span className="font-medium">equipo</span>, y me enorgullece entregar{" "}
+        <span className="font-medium">resultados de calidad</span> en plazos establecidos.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Siempre estoy dispuesto a <span className="italic">aprender</span> y mantenerme actualizado en las{" "}
+        <span className="font-medium">últimas tendencias</span> y tecnologías emergentes. Estoy preparado para enfrentar{" "}
+        <span className="italic">nuevos desafíos</span> y contribuir al <span className="font-medium">éxito</span> de cualquier proyecto.
       </p>
     </motion.section>
   );

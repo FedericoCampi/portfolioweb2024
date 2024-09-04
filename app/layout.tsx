@@ -23,18 +23,32 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-gray-500 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#080808] dark:text-gray-50 dark:text-opacity-90`}
-      >
-          <div className="absolute top-0 left-0 right-0 grid grid-cols-7 opacity-20 pointer-events-none mx-auto">
-            {Array.from({ length: 49 }).map((_, index) => (
-              <div
-                key={index}
-                className="h-24 min-w-24 border border-gray-600 bg-transparent"
-              ></div>
-            ))}
-        </div>
+        className={`${inter.className} bg-gray-800 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#020920] dark:text-gray-50 dark:text-opacity-90 overflow-x-hidden`}
+      > 
+        <div className="w-full h-full">
+              <div className="absolute top-0 left-0 right-0 w-full">
+                  <Spotlight
+                    className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+                    fill="white"
+                  />
+                  <Spotlight
+                    className="h-[80vh] w-[50vw] top-10 left-full"
+                    fill="purple"
+                  />
+                  <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+              </div>
+              <div className="absolute top-0 left-0 right-0 grid grid-cols-7 opacity-20 pointer-events-none mx-auto">
+                  {Array.from({ length: 49 }).map((_, index) => (
+                    <div
+                      key={index}
+                      className="h-24 min-w-24 border-2 border-gray-700 bg-transparent"
+                    ></div>
+                  ))}
+              </div>
+            </div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            
             <Header />
             {children}
             <Footer />
