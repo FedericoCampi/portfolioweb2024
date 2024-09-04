@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import aconpyImg from "@/public/aconpy.png";
-import astrohacksImg from "@/public/astrohacks.png";
+import astrohacksImg from "@/public/astroHacks.png";
 import eycImg from "@/public/e&c.png";
 import mercantilImg from "@/public/mercantil.png";
 
