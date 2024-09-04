@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <link rel="icon" href="/fcIcon.png" sizes="any" />
+      </head>
       <body
         className={`${inter.className} bg-gray-800 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#020920] dark:text-gray-50 dark:text-opacity-90 overflow-x-hidden`}
       > 
@@ -37,13 +40,10 @@ export default function RootLayout({
                   />
                   <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
               </div>
-              <div className="absolute top-0 left-0 right-0 grid grid-cols-7 opacity-20 pointer-events-none mx-auto">
-                  {Array.from({ length: 49 }).map((_, index) => (
-                    <div
-                      key={index}
-                      className="h-24 min-w-24 border-2 border-gray-700 bg-transparent"
-                    ></div>
-                  ))}
+              <div 
+               className="fondoGrid absolute top-0 left-0 right-0 w-full h-[90vh] opacity-10 pointer-events-none mx-auto"
+              >
+
               </div>
             </div>
         <ThemeContextProvider>
