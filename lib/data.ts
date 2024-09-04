@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import aconpyImg from "@/public/aconpy.png";
+import astrohacksImg from "@/public/astrohacks.png";
+import eycImg from "@/public/e&c.png";
+import mercantilImg from "@/public/mercantil.png";
 
 export const links = [
   {
@@ -12,23 +13,23 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre mí",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Proyectos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiencia",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contacto",
     hash: "#contact",
   },
 ] as const;
@@ -62,25 +63,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Aconpy.com",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Trabajé principalmente en una migración de backend utilizando PHP - CI4. Mi rol incluyó diversas tareas relacionadas con base de datos y el desarrollo frontend utilizando JavaScript.",
+    tags: ["PHP", "Code Igniter 4", "MySQL", "Javascript", "Tailwind"],
+    imageUrl: aconpyImg
   },
   {
-    title: "rmtDev",
+    title: "Astrohacks",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Ultimo proyecto freelance, E-commerce completo con autenticación de usuarios, mercado pago como medio de compras y varias funcionalidades.",
+    tags: ["TypeScript", "Next.js", "Redux", "Mercado pago"],
+    imageUrl: astrohacksImg,
   },
   {
-    title: "Word Analytics",
+    title: "E&C",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Tienda online de indumentaria, con filtros por producto, Stripe como pasarela de pago, etc.",
+    tags: ["React", "Tailwind", "Stripe"],
+    imageUrl: eycImg,
+  },
+  {
+    title: "Mercantil",
+    description:
+      "Landing page de venta de seguros.",
+    tags: ["HTML", "Css", "Javascript"],
+    imageUrl: mercantilImg,
   },
 ] as const;
 
@@ -94,14 +102,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "PHP",
+  "Laravel",
+  "Code Igniter 4",
   "Framer Motion",
 ] as const;
