@@ -1,7 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaUser  } from "react-icons/fa";
 import aconpyImg from "@/public/aconpy.png";
 import astrohacksImg from "@/public/astroHacks.png";
 import eycImg from "@/public/e&c.png";
@@ -36,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Frontend Developer",
+    location: "Zetenta agencia digital",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Desarrollar interfaces web responsivas usando HTML, CSS y Sass, colaborando con el equipo de diseño para crear sitios eficientes y atractivos visualmente.",
+    icon: React.createElement(FaUser),
+    date: "03/22 - 02/23",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full Stack Developer",
+    location: "UNB Collections",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Trabajé como desarrollador full stack creando aplicaciones web escalables utilizando PHP (Laravel) y JavaScript (React, Node.js). Desarrollé tanto soluciones de front-end como de back-end para varios proyectos.",
+    icon: React.createElement(FaUser),
+    date: "03/23 - 10/23",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Developer",
+    location: "Aconpy.com",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Trabajo como desarrollador full stack, utilizando principalmente PHP (CodeIgniter), React y bases de datos relacionales como MySQL. Me especializo en construir aplicaciones web dinámicas, integrando frontend y backend de manera eficiente.",
+    icon: React.createElement(FaUser),
+    date: "11/23 - actualidad",
   },
 ] as const;
 
@@ -67,7 +65,8 @@ export const projectsData = [
     description:
       "Trabajé principalmente en una migración de backend utilizando PHP - CI4. Mi rol incluyó diversas tareas relacionadas con base de datos y el desarrollo frontend utilizando JavaScript.",
     tags: ["PHP", "Code Igniter 4", "MySQL", "Javascript", "Tailwind"],
-    imageUrl: aconpyImg
+    imageUrl: aconpyImg,
+    link: "https://aconpy.com/"
   },
   {
     title: "Astrohacks",
@@ -75,6 +74,7 @@ export const projectsData = [
       "Ultimo proyecto freelance, E-commerce completo con autenticación de usuarios, mercado pago como medio de compras y varias funcionalidades.",
     tags: ["TypeScript", "Next.js", "Redux", "Mercado pago"],
     imageUrl: astrohacksImg,
+    link: "https://www.astro-hacks.com/"
   },
   {
     title: "E&C",
@@ -82,6 +82,7 @@ export const projectsData = [
       "Tienda online de indumentaria, con filtros por producto, Stripe como pasarela de pago, etc.",
     tags: ["React", "Tailwind", "Stripe"],
     imageUrl: eycImg,
+    link: "https://cloth-store-kappa.vercel.app/"
   },
   {
     title: "Mercantil",
@@ -89,6 +90,7 @@ export const projectsData = [
       "Landing page de venta de seguros.",
     tags: ["HTML", "Css", "Javascript"],
     imageUrl: mercantilImg,
+    link: "https://mercantil.netlify.app"
   },
 ] as const;
 
