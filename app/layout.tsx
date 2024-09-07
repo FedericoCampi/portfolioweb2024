@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="icon" href="/fcIcon.png" sizes="any" />
       </head>
       <body
-        className={`${inter.className} bg-gray-800 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#020920] dark:text-gray-50 dark:text-opacity-90 overflow-x-hidden`}
+        className={`${inter.className} bg-gray-400 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#020920] dark:text-gray-50 dark:text-opacity-90 overflow-x-hidden`}
       > 
         <div className="w-full h-full">
               <div className="absolute top-0 left-0 right-0 w-full">

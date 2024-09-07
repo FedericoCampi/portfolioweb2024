@@ -86,11 +86,14 @@ export default function Intro() {
           Contactame{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link> */}
-        <MagicButton
+        <a href="#contact">
+          <MagicButton
               title="Contactáme"
               //icon={<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />}
               position="right"
             />
+        </a>
+        
 
         <a
           className="z-50 group bg-white px-7 py-3 flex items-center gap-2 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
