@@ -97,7 +97,7 @@ export default function Intro() {
 
         <a
           className="z-50 group bg-white px-7 py-3 flex items-center gap-2 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/FedericoCampiCV.pdf"
           download
         >
           Descargar CV{" "}
