@@ -29,8 +29,15 @@ html.dark {
   mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%);
 }
 
+@media (max-width: 900px) {
+  .responsiveThemeSwitch {
+    bottom: 30px !important;
+    top: inherit;
+  }
+}
 @media (max-width: 1300px) {
   .h-responsiveHeader {
     height: 50px !important;
   }
 }
+

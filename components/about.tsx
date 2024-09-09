@@ -22,18 +22,20 @@ export default function About() {
         Soy desarrollador{" "}
         <span className="font-medium">Full Stack</span> con experiencia en la
         creación de <span className="font-medium">soluciones tecnológicas innovadoras</span>.
-        Poseo habilidades sólidas en lenguajes web como{" "}
+        Poseo habilidades sólidas en tecnologías como{" "}
         <span className="font-medium">HTML, CSS, JavaScript</span>, así como en{" "}
         <span className="font-medium">frameworks</span> y{" "}
         <span className="font-medium">bibliotecas populares</span>.
       </p>
 
       <p className="mb-3">
-        Además, tengo experiencia en el desarrollo tanto del lado del{" "}
+        Tengo experiencia en el desarrollo tanto del lado del{" "}
         <span className="font-medium">cliente</span> como del{" "}
-        <span className="font-medium">servidor</span>, utilizando tecnologías como{" "}
-        <span className="font-medium">Node.js, PHP</span> y{" "}
-        <span className="font-medium">Java</span>.
+        <span className="font-medium">servidor</span>, utilizando lenguajes como{" "}
+        <span className="font-medium">Typescript, PHP</span> y{" "}
+        <span className="font-medium">Java principalmente</span>. Además, cuento con experiencia en el{" "}
+        <span className="font-medium">despliegue y gestión de servidores</span> en{" "}
+        <span className="font-medium">AWS</span>, incluyendo tareas de configuración, mantenimiento y escalabilidad.
       </p>
 
       <p className="mb-3">
