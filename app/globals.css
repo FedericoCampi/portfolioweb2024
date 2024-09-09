@@ -28,3 +28,9 @@ html.dark {
   -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%);
   mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%);
 }
+
+@media (max-width: 1300px) {
+  .h-responsiveHeader {
+    height: 50px !important;
+  }
+}
