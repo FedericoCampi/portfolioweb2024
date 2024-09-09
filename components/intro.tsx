@@ -32,14 +32,14 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/assets/fotit.png"
-              alt="Federico portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover shadow-xl"
-            />
+  src="/assets/fotit.png"
+  alt="Federico portrait"
+  width={202}
+  height={202}
+  quality="95"
+  priority={true}
+  className="rounded-full object-cover shadow-xl"
+/>
           </motion.div>
 
           {/* <motion.span
