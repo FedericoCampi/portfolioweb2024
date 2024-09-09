@@ -34,12 +34,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Frontend Developer",
-    location: "Zetenta agencia digital",
+    title: "Full Stack Developer",
+    location: "Aconpy.com",
     description:
-      "Desarrollar interfaces web responsivas usando HTML, CSS y Sass, colaborando con el equipo de diseño para crear sitios eficientes y atractivos visualmente.",
+      "Trabajo como desarrollador full stack, utilizando principalmente PHP (CodeIgniter), React y bases de datos relacionales como MySQL. Me especializo en construir aplicaciones web dinámicas, integrando frontend y backend de manera eficiente.",
     icon: React.createElement(FaUser),
-    date: "03/22 - 02/23",
+    date: "11/23 - actualidad",
   },
   {
     title: "Full Stack Developer",
@@ -50,13 +50,13 @@ export const experiencesData = [
     date: "03/23 - 10/23",
   },
   {
-    title: "Full Stack Developer",
-    location: "Aconpy.com",
+    title: "Frontend Developer",
+    location: "Zetenta agencia digital",
     description:
-      "Trabajo como desarrollador full stack, utilizando principalmente PHP (CodeIgniter), React y bases de datos relacionales como MySQL. Me especializo en construir aplicaciones web dinámicas, integrando frontend y backend de manera eficiente.",
+      "Desarrollar interfaces web responsivas usando HTML, CSS y Sass, colaborando con el equipo de diseño para crear sitios eficientes y atractivos visualmente.",
     icon: React.createElement(FaUser),
-    date: "11/23 - actualidad",
-  },
+    date: "03/22 - 02/23",
+  }
 ] as const;
 
 export const projectsData = [

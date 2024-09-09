@@ -45,6 +45,7 @@ html.dark {
 
 .skill-item.typescript:hover {
   background-color: #3178C6; /* TypeScript color */
+  color:black;
 }
 
 .skill-item.react:hover {
@@ -54,6 +55,7 @@ html.dark {
 
 .skill-item.next-js:hover {
   background-color: #000000; /* Next.js color */
+  color: white;
 }
 
 .skill-item.node-js:hover {
@@ -80,6 +82,7 @@ html.dark {
 
 .skill-item.express:hover {
   background-color: #000000; /* Express color */
+  color:white;
 }
 
 .skill-item.postgresql:hover {

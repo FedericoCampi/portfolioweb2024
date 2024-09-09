@@ -33,7 +33,7 @@ export default function Skills() {
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className={`skill-item skill-item ${skill.name.toLowerCase().replace(/[\s.]+/g, '-')} transition bg-white/10 borderBlack rounded-xl px-5 py-3 dark:text-white/80`}
+            className={`skill-item skill-item ${skill.name.toLowerCase().replace(/[\s.]+/g, '-')} transition bg-black/10 dark:bg-white/10 borderBlack rounded-xl px-5 py-3 dark:text-white/80`}
             //dark:bg-white/10
             key={index}
             variants={fadeInAnimationVariants}

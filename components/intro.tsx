@@ -32,14 +32,14 @@ export default function Intro() {
             }}
           >
             <Image
-  src="/assets/fotit.png"
-  alt="Federico portrait"
-  width={202}
-  height={202}
-  quality="95"
-  priority={true}
-  className="rounded-full object-cover shadow-xl"
-/>
+              src="/assets/fotit.png"
+              alt="Federico portrait"
+              width={202}
+              height={202}
+              quality="95"
+              priority={true}
+              className="rounded-full object-cover shadow-xl"
+            />
           </motion.div>
 
           {/* <motion.span
@@ -88,12 +88,12 @@ export default function Intro() {
         </Link> */}
         <a href="#contact">
           <MagicButton
-              title="Contactáme"
-              //icon={<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />}
-              position="right"
-            />
+            title="Contactáme"
+            //icon={<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />}
+            position="right"
+          />
         </a>
-        
+
 
         <a
           className="z-50 group bg-white px-7 py-3 flex items-center gap-2 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
@@ -109,7 +109,7 @@ export default function Intro() {
           href="https://linkedin.com/in/federico-campi"
           target="_blank"
         >
-          <BsLinkedin className="text-xl"/>
+          <BsLinkedin className="text-xl" />
         </a>
 
         <a
@@ -117,7 +117,7 @@ export default function Intro() {
           href="https://github.com/FedericoCampi"
           target="_blank"
         >
-          <FaGithubSquare className="text-2xl"/>
+          <FaGithubSquare className="text-2xl" />
         </a>
       </motion.div>
     </section>
