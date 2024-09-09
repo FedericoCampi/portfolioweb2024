@@ -29,6 +29,81 @@ html.dark {
   mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%);
 }
 
+
+.skill-item.html:hover{
+  background-color: #E34F26; /* HTML color */
+}
+
+.skill-item.css:hover {
+  background-color: #1572B6; /* CSS color */
+}
+
+.skill-item.javascript:hover {
+  background-color: #F7DF1E; /* JavaScript color */
+  color: black;
+}
+
+.skill-item.typescript:hover {
+  background-color: #3178C6; /* TypeScript color */
+}
+
+.skill-item.react:hover {
+  background-color: #61DAFB; /* React color */
+  color: black;
+}
+
+.skill-item.next-js:hover {
+  background-color: #000000; /* Next.js color */
+}
+
+.skill-item.node-js:hover {
+  background-color: #8CC84B; /* Node.js color */
+  color: black;
+}
+
+.skill-item.git:hover {
+  background-color: #F05032; /* Git color */
+}
+
+.skill-item.tailwind:hover {
+  background-color: #38B2AC; /* Tailwind color */
+  color: black;
+}
+
+.skill-item.mongodb:hover {
+  background-color: #47A248; /* MongoDB color */
+}
+
+.skill-item.redux:hover {
+  background-color: #764ABC; /* Redux color */
+}
+
+.skill-item.express:hover {
+  background-color: #000000; /* Express color */
+}
+
+.skill-item.postgresql:hover {
+  background-color: #4169E1; /* PostgreSQL color */
+}
+
+.skill-item.php:hover {
+  background-color: #777BB4; /* PHP color */
+}
+
+.skill-item.laravel:hover {
+  background-color: #FF2D20; /* Laravel color */
+}
+
+.skill-item.code-igniter-4:hover {
+  background-color: #E8A210; /* Code Igniter 4 color */
+  color: black;
+}
+
+.skill-item.framer-motion:hover {
+  background-color: #00D084; /* Framer Motion color */
+  color: black;
+}
+
 @media (max-width: 900px) {
   .responsiveThemeSwitch {
     bottom: 30px !important;

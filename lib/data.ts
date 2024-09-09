@@ -95,21 +95,21 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
-  "Redux",
-  "Express",
-  "PostgreSQL",
-  "PHP",
-  "Laravel",
-  "Code Igniter 4",
-  "Framer Motion",
+  { name: "HTML", color: "bg-red-600" },        // HTML color
+  { name: "CSS", color: "bg-blue-600" },       // CSS color
+  { name: "JavaScript", color: "bg-yellow-400" }, // JavaScript color
+  { name: "TypeScript", color: "bg-blue-700" },  // TypeScript color
+  { name: "React", color: "bg-cyan-400" },      // React color
+  { name: "Next.js", color: "bg-black" },       // Next.js color
+  { name: "Node.js", color: "bg-green-600" },   // Node.js color
+  { name: "Git", color: "bg-red-500" },         // Git color
+  { name: "Tailwind", color: "bg-teal-500" },   // Tailwind color
+  { name: "MongoDB", color: "bg-green-700" },   // MongoDB color
+  { name: "Redux", color: "bg-violet-700" },    // Redux color
+  { name: "Express", color: "bg-black" },       // Express color
+  { name: "PostgreSQL", color: "bg-blue-600" }, // PostgreSQL color
+  { name: "PHP", color: "bg-blue-600" },        // PHP color
+  { name: "Laravel", color: "bg-red-600" },     // Laravel color
+  { name: "Code Igniter 4", color: "bg-yellow-500" }, // Code Igniter 4 color
+  { name: "Framer Motion", color: "bg-teal-400" }, // Framer Motion color
 ] as const;
