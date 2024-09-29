@@ -7,12 +7,15 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { Spotlight } from "@/components/ui/Spotlight";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Federico Campi | Portfolio",
-  description: "Full Stack developer portfolio",
+  description: "Explora el portafolio de Federico Campi, un desarrollador Full Stack especializado en aplicaciones web y móviles.",
+  keywords: "Federico Campi, Desarrollador Full Stack, Portfolio, Desarrollo Web, Aplicaciones Móviles, federico campi, campi, federico, programador, desarrollo web,páginas web, programador argentina",
+  author: "Federico Campi",
 };
 
 export default function RootLayout({
@@ -24,6 +27,38 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <head>
         <link rel="icon" href="/fcIcon.png" sizes="any" />
+        <meta property="og:title" content="Federico Campi | Portfolio" />
+        <meta property="og:description" content="Explora el portafolio de Federico Campi, un desarrollador Full Stack." />
+        <meta property="og:image" content="/fcIcon.png" />
+        <meta property="og:url" content="https://federicocampi.com" />
+
+        {/* Google tag (gtag.js) */}
+        <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}></Script>
+        <Script>
+          {`  
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+
+          `}
+        </Script>
+        <Script id="schema">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Federico Campi",
+              "jobTitle": "Desarrollador Full Stack",
+              "url": "https://federicocampi.com",
+              "sameAs": [
+                "https://linkedin.com/in/federico-campi"
+              ]
+            }
+          `}
+        </Script>
+
       </head>
       <body
         className={`${inter.className} bg-gray-200 text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#020920] dark:text-gray-50 dark:text-opacity-90 overflow-x-hidden`}
